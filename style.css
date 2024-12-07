@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.first-background {
+
+    background-image: url(images/bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+header {
+    font-family: "Parkinsans", sans-serif;
+}
+
+/* هنا ال nav bar */
+
+nav {
+    display: flex;
+    padding: 23px 60px;
+    background-color: #E3E6F3;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px #AEA0CE;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+}
+
+.bag {
+    width: 20px;
+}
+
+li {
+    padding: 5px 27px;
+    list-style: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #1c2833;
+    font-weight: 500;
+}
+
+.logo {
+    padding: 0 0 0 30px;
+
+}
+
+.logo-img {
+    width: 180px;
+}
+
+.a-active {
+    color: #007576;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 3px solid teal;
+    width: 60%;
+
+}
+
+.active:hover {
+    .a-active {
+        width: 100%;
+        transition: 0.2s;
+    }
+
+}
+
+nav ul li:hover {
+    box-shadow: 0 0 5px 0 black;
+    transition: 0.3s;
+}
+
+
+/* ____________________________________________________________________________________________________________________ */
+
+/* هنا المحتوى بتاع اول صفحة */
+
+
+.section-content {
+    margin: 350px 0 0 0;
+    padding: 0;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.trade {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: -40px;
+}
+
+h1 {
+    color: #1c2833;
+    font-weight: bold;
+    font-size: 80px;
+    word-wrap: break-word;
+    line-height: 1;
+}
+
+.second-line-h1 {
+    color: teal;
+    display: block;
+
+}
+
+.active-button {
+
+    background-image: url(images/button.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 120px;
+    color: teal;
+    font-weight: bold;
+}
+
+.active-button:hover {
+    text-shadow: 0 0 1px black;
+    font-size: 20px;
+}
+
+.discount {
+    margin-top: -10px;
+    margin-bottom: 45px;
+}
+
+.content {
+    margin: 200px 0 0 80px;
+}
+
+/* _________________________________________________________________________________________________________________ */
+
+/* ال Features */
+.fea {
+    border: solid black 0.0px;
+    box-shadow: 0 0 2px 0px #1b2631;
+    border-radius: 10px;
+    margin: 50px 0px;
+    padding: 25px;
+}
+
+.features ul {
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.f-p {
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.fea:hover {
+    box-shadow: 0px 0px 5px 0px black;
+    transition: 0.2s;
+}
+
+.p1 {
+    background-color: #FFE1E2;
+    display: block;
+}
+
+.p2 {
+    background-color: #CCE6BC;
+}
+
+.p3 {
+    background-color: #CEE6F3;
+}
+
+.p4 {
+    background-color: #CED6F9;
+}
+
+.p5 {
+    background-color: #F9E0F7;
+}
+
+.p6 {
+    background-color: #FFF3E2;
+}
+
+/* ________________________________________________________________________________________________________________ */
+/* ال Products */
+
+.section-products {
+    font-family: "Parkinsans", sans-serif;
+}
+
+.h2-ps,
+.p-ps {
+    text-align: center;
+}
+
+.h2-ps {
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.p-ps {
+    margin-top: -35px;
+}
+
+.img-product {
+    width: 350px;
+    border-radius: 30px;
+}
+
+.stars-icon {
+    width: 150px;
+    margin: -20px 0;
+}
+
+.cart-icon {
+    width: 65px;
+    background-color: #b0e2de85;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.prod {
+    border: 3px solid #F6F6F6;
+    border-radius: 30px;
+    padding: 20px 20px 0px 20px;
+    margin: 0 40px 0 0;
+}
+
+.section-products ul {
+    justify-content: space-between;
+}
+
+.ul-cart {
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.adidas {
+    color: #909497;
+    margin: 0;
+}
+
+.cartoon {
+    font-weight: bold;
+    margin: 0;
+}
+
+.price {
+    color: teal;
+    font-weight: bold;
+    padding: 15px 0 0 30px;
+}
+
+.ul-cart li {
+    margin: 0 -40px;
+}
+
+.first-line-of-products {
+    margin: 0 40px;
+}
+
+.second-line-of-products {
+    margin: 40px 40px;
+}
+
+.prod:hover {
+    box-shadow: 0px 0px 5px 0px black;
+    transition: 0.2s;
+
+}
+
+/* ________________________________________________________________________________________________________________ */
+/* Repaire part */
+
+.section-repaire {
+    background-image: url(images/banner/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Parkinsans", sans-serif;
+    color: white;
+    padding: 30px;
+    text-align: center;
+
+
+}
+
+.h3-repair {
+    margin-top: 40px;
+}
+
+.p-repair {
+    font-weight: bold;
+    font-size: 60px;
+    margin: 20px 0;
+
+}
+
+.explore-button {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-bottom: 40px;
+}
+
+.explore-button:hover {
+    box-shadow: 0 0 20px 0 white;
+    transition: 0.2s;
+}
+
+/* ___________________________________________________________________________________________________________ */
+/* Offers section */
+
+.section-offers {
+    font-family: "Parkinsans", sans-serif;
+    margin: 100px 0;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding: 100px 80px 100px 40px;
+    width: 100%;
+}
+
+.first-offer {
+    background-image: url(images/banner/b17.jpg);
+}
+
+.second-offer {
+    background-image: url(images/banner/b10.jpg);
+}
+
+.third-offer {
+    background-image: url(images/banner/b7.jpg);
+}
+
+.fourth-offer {
+    background-image: url(images/banner/b4.jpg);
+}
+
+.fifth-offer {
+    background-image: url(images/banner/b18.jpg);
+}
+
+.h3-offer {
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+    margin-bottom: -40px;
+
+}
+
+.h2-offer {
+    color: white;
+    font-size: 50px;
+    margin-bottom: -20px;
+
+}
+
+.p-offer {
+    color: white;
+    margin-bottom: 35px;
+    font-size: 17px;
+
+}
+
+.button-offer {
+    border: 1px solid white;
+    padding: 12px 20px;
+    color: white;
+}
+
+.ul-l-offer {
+    margin: 0 150px;
+
+}
+
+.button-offer:hover {
+    background-color: #58d68d;
+    transition: 0.6s;
+
+}
+
+
+/* second part */
+
+.bg1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.ul-2-offer {
+    margin: 20px 150px 0 150px;
+}
+
+.h2-part2 {
+    font-size: 30px;
+    margin-left: -60px;
+    padding: 70px 20px 0 70px;
+    white-space: nowrap;
+    color: white;
+}
+
+.p2-part2 {
+    font-size: 15px;
+    color: #700505;
+    margin-left: -60px;
+    font-weight: bold;
+    padding: 0 20px 60px 70px;
+    margin-top: -20px;
+
+}
+
+.ul-2-offer li {
+    margin: 0 20px;
+}
+
+/* _________________________________________________________________________________________________________________ */
+/* sing up */
+
+.sign-up {
+    font-family: "Parkinsans", sans-serif;
+    background-image: url(images/banner/b14.png);
+    background-repeat: no-repeat;
+    background-color: #021E45;
+    background-size: 900px;
+    background-position: left;
+    padding: 20px;
+    margin-top: -35px;
+}
+
+.sign-up-h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sign-up-p {
+    color: #b2babb;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.sign-up-a {
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+.input-email {
+    text-align: left;
+    padding: 25px 200px 25px 30px;
+    background-color: #D0D0D0;
+    border-radius: 10px 0 0 10px;
+    font-size: 20px;
+
+}
+
+.input-submit {
+    background-color: teal;
+    color: white;
+    padding: 25px 50px 25px 50px;
+    margin-left: -9px;
+    border-radius: 0 10px 10px 0;
+    font-size: 20px;
+}
+
+.sign-up ul {
+    justify-content: space-between;
+
+}
+
+.input-li {
+    margin: auto 10px auto auto;
+}
+
+/* _____________________________________________________________________________________________________________ */
+/* Footer */
+
+footer ul {
+    display: block;
+}
+
+footer {
+    display: flex;
+    background-color: #EEECEE;
+    justify-content: space-between;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.social-logo {
+    width: 22px;
+}
+
+.install-logo {
+    background-color: white;
+    border: 1px solid black;
+    padding: 3px 5px;
+    border-radius: 10px;
+    width: 200px;
+
+}
+
+.pay-logo {
+    width: 300px;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer ul li {
+    margin: 20px 0px;
+}
+
+.foot:hover {
+    color: teal;
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+
+
+
+    .features ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .first-line-of-products,
+    .second-line-of-products {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .first-line-of-products li,
+    .second-line-of-products li {
+        margin-top: 20px;
+    }
+
+    .section-repaire,
+    p {
+        background-size: cover;
+    }
+
+    .section-offers ul {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .bg {
+        margin: 0;
+    }
+
+    .sign-up ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .input-email,
+    .input-submit {
+        border-radius: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .prod {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .section-content {
+        margin: 10vh 5%;
+    }
+    input[type="submit"] {
+        width: 100%;
+    }
+    
+
+}
